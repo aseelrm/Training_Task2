@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #008787;
+    padding: 20px;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 90px 30px;
+    background: #e8e8ff;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #008787;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.course-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.booking-form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.success {
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.p-img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.p-img:hover {
+    transform: scale(1.04);
+}
+
+#modalBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalBox {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #ddd;
+}
