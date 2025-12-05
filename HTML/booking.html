@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course - Shifra Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Shifra Code</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <form class="booking-form">
+        <input id="nameInput" type="text" placeholder="Name">
+        <input id="phoneInput" type="text" placeholder="Phone">
+        <input id="emailInput" type="email" placeholder="Email">
+        <select id="courseSelect">
+            <option value="Intro to Coding">$2 - Intro to Coding</option>
+            <option value="Web Development">$25 - Web Development</option>
+            <option value="Advanced Front-End">$30 - Advanced Front-End</option>
+        </select>
+        <button type="button" id="saveBooking" class="btn">Submit</button>
+        <div id="successMsg" class="success"></div>
+    </form>
+</section>
+
+<script src="script.js"></script>
+
+<footer>
+    © 2025 Shifra Code
+</footer>
+
+</body>
+</html>
